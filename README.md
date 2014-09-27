@@ -4,7 +4,7 @@ Trie
 - Trie is a lightweight and simple autocompletion data structure written in C++11.
 - Easy to integrate. One header and one source file.
 - Cross-platform. No extra dependencies.
-- MIT licensed.
+- BOOST licensed.
 
 API
 ---
