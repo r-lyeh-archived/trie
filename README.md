@@ -1,4 +1,4 @@
-Trie
+Trie <a href="https://travis-ci.org/r-lyeh/trie"><img src="https://api.travis-ci.org/r-lyeh/trie.svg?branch=master" align="right" /></a>
 ====
 
 - Trie is a lightweight and simple autocompletion data structure written in C++11.
