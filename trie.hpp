@@ -1,5 +1,5 @@
 // Simple trie data structure using STL. Based on code by Vivek Narayanan.
-// - rlyeh, 2013 BOOST licensed ~~ listening to Baroness / March to the Sea.
+// - rlyeh, 2013 zlib/libpng licensed ~~ listening to Baroness / March to the Sea.
 
 #pragma once
 

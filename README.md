@@ -4,7 +4,7 @@ Trie <a href="https://travis-ci.org/r-lyeh/trie"><img src="https://api.travis-ci
 - Trie is a lightweight and simple autocompletion data structure written in C++11.
 - Easy to integrate. One header and one source file.
 - Cross-platform. No extra dependencies.
-- BOOST licensed.
+- zlib/libpng licensed.
 
 API
 ---
