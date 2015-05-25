@@ -2,26 +2,24 @@ Trie <a href="https://travis-ci.org/r-lyeh/trie"><img src="https://api.travis-ci
 ====
 
 - Trie is a lightweight and simple autocompletion data structure written in C++11.
-- Easy to integrate. One header and one source file.
-- Cross-platform. No extra dependencies.
-- zlib/libpng licensed.
+- Trie is tiny, cross-platform and header-only.
+- Trie is zlib/libpng licensed.
 
-API
----
-- `.insert(element)`
+## API
+- construct `trie<K>` or `trie<K,V>` as desired.
+- `.insert(element)` or `[element]` to create/access elements.
 - `.has(element)` returns `true` if `element` is in trie.
 - `.complete(element)` autocompletes partially provided `element` then returns vector of candidate pointers.
 - `.list()` returns a vector of hosted pointers in trie.
 - `.size()` returns number of elements in trie.
 
-Sample
-------
+## Sample
 ```c++
+#include "trie.hpp"
+
 #include <iostream>
 #include <string>
 #include <cassert>
-
-#include "trie.hpp"
 
 int main()
 {
@@ -45,14 +43,18 @@ int main()
     assert( *candidates[0] == "wargame" );
 
     std::cout << "All ok." << std::endl;
-    return 0;
 }
 ```
 
-Possible output
----------------
+## Possible output
 ```
 ~/trie>g++ sample.cc trie.cpp -std=c++11
 All ok.
 ~/trie>
 ```
+
+## Changelog
+- v1.0.1 (2015/05/25)
+  - Additional tree implementation.
+- v1.0.0 (2013/07/18)
+  - Initial commit
